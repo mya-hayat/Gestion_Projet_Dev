@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" version="5.0">
+  <display-name>Gerer_Projet_Dev</display-name>
+  <servlet>
+    <description></description>
+    <display-name>AcceuilServeletController</display-name>
+    <servlet-name>AcceuilServeletController</servlet-name>
+    <servlet-class>Controllers.AcceuilServeletController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AcceuilServeletController</servlet-name>
+    <url-pattern>/AcceuilServeletController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DevelopperServelet</display-name>
+    <servlet-name>DevelopperServelet</servlet-name>
+    <servlet-class>Controllers.DevelopperServelet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DevelopperServelet</servlet-name>
+    <url-pattern>/DevelopperServelet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AuthentificationServelet</display-name>
+    <servlet-name>AuthentificationServelet</servlet-name>
+    <servlet-class>Controllers.AuthentificationServelet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AuthentificationServelet</servlet-name>
+    <url-pattern>/AuthentificationServelet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ChefServlet</display-name>
+    <servlet-name>ChefServlet</servlet-name>
+    <servlet-class>Controllers.ChefServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChefServlet</servlet-name>
+    <url-pattern>/ChefServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
